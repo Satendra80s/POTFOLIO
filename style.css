@@ -1,0 +1,111 @@
+/* css/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+main {
+    padding: 50px;
+}
+
+.portfolio-options {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.portfolio-option {
+    width: 300px;
+    background-color: #fff;
+    padding: 30px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.portfolio-option:hover {
+    transform: translateY(-10px);
+}
+
+.portfolio-option h2 {
+    font-size: 24px;
+}
+
+.portfolio-option p {
+    font-size: 16px;
+    color: #666;
+}
+
+footer {
+  text-align: center;
+  padding: 100px;
+  background-color: #333;
+  color: white;
+}
+
+/* Additional styles for project pages */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+section {
+    padding: 50px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.project-item video, .project-item img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+}
